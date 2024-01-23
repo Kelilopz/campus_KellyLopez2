@@ -1,0 +1,54 @@
+Solución del quiz.
+Pregunta 1
+Funcion ContarHastaDiez
+    Para i <- 1 Hasta 10 Con Paso 1 Hacer
+        Escribir i
+    FinPara
+FinFuncion 
+Pregunta: ¿Qué hace este pseudocódigo?
+b) imprime los numeros del 1 al 10
+
+Pregunta 2 
+Funcion SumarImpares
+    suma <- 0
+    Para i <- 1 Hasta 20 Con Paso 2 Hacer
+        suma <- suma + i
+    FinPara
+    Escribir suma
+FinFuncion 
+b) 110
+
+Pregunta 3
+FuncionContarHastaCien
+    i <- 1
+    Mientras i <= 100 Hacer
+        Escribir i
+        i <- i + 1
+    FinMientras
+FinFuncion 
+
+c) Mientras
+
+Pregunta 4
+Funcion DivisoresDeSeis
+    Para i <- 1 Hasta 12 Hacer
+        Si 6 mod i = 0 Entonces
+            Escribir i
+        FinSi
+    FinPara
+FinFuncion
+
+d) Los multiplos de 6 hasta 12 
+
+Pregunta 5
+Funcion InvertirNumero
+    numero <- 12345
+    invertido <- 0
+    Mientras numero > 0 Hacer
+        invertido <- invertido * 10 + numero mod 10
+        numero <- numero / 10
+    FinMientras
+    Escribir invertido
+FinFuncion 
+
+a)54321

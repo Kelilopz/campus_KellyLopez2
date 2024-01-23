@@ -1,0 +1,11 @@
+Para iniciar el codigo debemos reconocer las diferentes instrucciones
+Instrucción 1
+Definir una variable edad
+Comando tipo bucle, mientras, para recibir todas las edades hasta que se cumpla la condición de que la edad sea negativa
+realizar 3 condicionales para sumar las edades, definir la cantidad de edades y encontrar la edad maxima
+Instruccion 2 
+Realizar un repetir hasta que el usuario decida una opción valida
+Tendrá 2 opciones, las cuales seran calcular el promedio de edades o encontrar la cantidad maxima
+Cuando el usuario elija un valor que corresponda a las opciones que se dan se calculará lo que el pida.
+
+ 

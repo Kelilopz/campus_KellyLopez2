@@ -1,0 +1,45 @@
+Algoritmo promedio_o_edadmaxima
+	Definir edad, cantidadedades como Entero
+	Escribir "Por favor ingrese edades, si desea parar por favor ingrese un valor negativo o cero"
+	sumaedades<-0
+	cantidadedades<-0
+	edad<-1
+	// Aqui se cumple la condición de que se cierre el ciclo cuando entra un valor negativo 
+	// y solo se suman los valores que sean positivos, es decir, no se cuenta el fin del ciclo.
+	Mientras edad>=0 hacer 
+		Leer edad
+		Si edad>0 Entonces
+			cantidadedades<-cantidadedades+1
+		FinSi
+		Si edad>=0 entonces
+			sumaedades<-sumaedades+edad
+		FinSi
+		Si edad>edadmaxima Entonces
+			edadmaxima<-edad 
+		FinSi
+	FinMientras
+	Escribir "La CANTIDAD de las edades ingresada es: ", cantidadedades
+	Escribir "La SUMA de las edades ingresada es: ", sumaedades
+	
+	//aqui vamos a pedirle al usuario que elija si quiere el promedio o encontrar la edad maxima
+	Escribir ""
+	Escribir ""
+	Escribir "Si usted desea encontrar"
+	Escribir "Promedio de edades = P"
+	Escribir "Edad Máxima ingresada = M"
+	
+	Leer quehacer
+	Repetir
+		Escribir "Por favor ingrese una opción valida"
+		Leer quehacer
+	Hasta Que quehacer="M" o quehacer="P"
+	Segun quehacer Hacer
+		"P": 
+			promedioedades<-sumaedades/cantidadedades
+			Escribir "El promedio de las edades ingresadas es: ", promedioedades
+		"M":
+			Escribir "La edad maxima ingresada es", edadmaxima
+	FinSegun
+	
+FinAlgoritmo
+
