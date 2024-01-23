@@ -38,7 +38,7 @@ Funcion DivisoresDeSeis
     FinPara
 FinFuncion
 
-d) Los multiplos de 6 hasta 12 
+c) Los divisores de 6 
 
 Pregunta 5
 Funcion InvertirNumero
